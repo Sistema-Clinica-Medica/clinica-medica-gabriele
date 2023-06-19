@@ -41,12 +41,6 @@ const Topbar = () => {
                   My Profile
                 </Typography>
               </MenuItem>
-              <MenuItem className="flex items-center gap-2">
-                <SettingsIcon strokeWidth={2} className="h-4 w-4" />
-                <Typography variant="small" className="font-normal">
-                  Edit Profile
-                </Typography>
-              </MenuItem>
               <hr className="my-2 border-blue-gray-50" />
               <MenuItem className="flex items-center gap-2">
                 <LogoutIcon strokeWidth={2} className="h-4 w-4" />

@@ -27,10 +27,12 @@ export default function Sidebar() {
             
           </li>
           </Link>
+          <Link to='/diagnostico'>
           <li className="px-4 py-2 hover:bg-gray-700 hover:text-white cursor-pointer">
             <FolderIcon/>
             Diagnóstico
           </li>
+          </Link>
         </ul>
         <ul>
           <li className="px-4 py-2 hover:bg-gray-700 hover:text-white cursor-pointer">
