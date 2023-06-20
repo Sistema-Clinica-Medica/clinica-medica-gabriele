@@ -10,7 +10,6 @@ import {
 } from "@material-tailwind/react";
 import LogoutIcon from '@mui/icons-material/Logout';
 import UserIcon from '@mui/icons-material/AccountBox';
-import SettingsIcon from '@mui/icons-material/Settings';
 import BernardoIcon from '../assets/BernardoIcon.jpg'
 import Logo2Icon from '../assets/Logo (2).png'
 
@@ -37,9 +36,11 @@ const Topbar = () => {
             <MenuList>
               <MenuItem className="flex items-center gap-2">
                 <UserIcon strokeWidth={2} className="h-4 w-4" />
+                <Link to='/perfil'>
                 <Typography variant="small" className="font-normal">
                   My Profile
                 </Typography>
+                </Link>
               </MenuItem>
               <hr className="my-2 border-blue-gray-50" />
               <MenuItem className="flex items-center gap-2">

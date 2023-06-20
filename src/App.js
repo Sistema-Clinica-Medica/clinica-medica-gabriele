@@ -5,6 +5,7 @@ import DefaultPage from './components/DefaultPage';
 import Home from './pages/Home';
 import Form from './pages/Form'
 import Diagnostico from './pages/Diagnostico';
+import Perfil from './pages/Perfil';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/form' element={<Form />} />
             <Route path='/diagnostico' element={<Diagnostico />} />
+            <Route path='/perfil' element={<Perfil />} />
           </Route>
           <Route path='/login' element={<Login />} />
           <Route path='/forgotpassword' element={<ForgotPassword />} />
